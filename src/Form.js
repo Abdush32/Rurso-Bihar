@@ -9,11 +9,11 @@ const Form = () => {
         <div className="col-lg-8 offset-lg-2">
           <div className="navigation">
             <div className="logo">
-              <a href="https://uigaint.com/demo/html/anfra_2/index.html"><img src="/assets/images/logo-dark.png" className="img-fluid" alt="abdush" /><span>KYC</span></a>
+              <a href="https://uigaint.com/demo/html/anfra_2/index.html"><img src="/assets/images/logo-dark.png" className="img-fluid" alt="abdush" width={160} /></a>
             </div>
             <div className="nav-btns">
-              <a href="https://uigaint.com/demo/html/anfra_2/index.html" className="back"><span className="text">Back to Main</span> Demo</a>
-              <a href="https://themeforest.net/item/anfra-questionnaire-form-wizard/29917051" className="get">Get Anfra</a>
+     
+              <a href="#" className="get">Download</a>
             </div>
           </div>
         </div>
@@ -32,13 +32,13 @@ const Form = () => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="inputFname">First Name</label>
-                      <input type="text" className="form-control" id="inputFname" placeholder="e.g. Robert" />
+                      <input type="text" className="form-control" id="inputFname" placeholder="Abdush" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="inputLname">Last Name</label>
-                      <input type="text" className="form-control" id="inputLname" placeholder="e.g. Smith" />
+                      <input type="text" className="form-control" id="inputLname" placeholder="Abdush" />
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -171,31 +171,31 @@ const Form = () => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="state">State/Province</label>
-                      <input type="text" className="form-control" id="state" placeholder="e.g. Smith" />
+                      <input type="text" className="form-control" id="state" placeholder="Bihar" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="address1">Address Line 1</label>
-                      <input type="text" className="form-control" id="address1" placeholder="e.g. 2707 Par Drive" />
+                      <input type="text" className="form-control" id="address1" placeholder="Shagunamore" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="address2">Address Line 2</label>
-                      <input type="text" className="form-control" id="address2" placeholder="e.g. Los Angeles, CA 90013" />
+                      <input type="text" className="form-control" id="address2" placeholder="Shagunamore " />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="city">City</label>
-                      <input type="text" className="form-control" id="city" placeholder="e.g. New York" />
+                      <input type="text" className="form-control" id="city" placeholder="Patna" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="zip">Post Code</label>
-                      <input type="text" className="form-control" id="zip" placeholder="e.g. 0000" />
+                      <input type="text" className="form-control" id="zip" placeholder="801503" />
                     </div>
                   </div>
                 </div>

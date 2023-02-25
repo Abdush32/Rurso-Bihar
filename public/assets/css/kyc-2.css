@@ -103,9 +103,9 @@
       flex-flow: "Roboto", sans-serif;
       margin-right: 25px; }
       .navigation .nav-btns .back:hover {
-        color: #1e85ff; }
+        color: #FA9220; }
     .navigation .nav-btns .get {
-      background: #1e85ff;
+      background: #FA9220;
       color: #ffffff;
       height: 50px;
       padding: 0 30px;
@@ -215,13 +215,13 @@
   .ugf-form .input-block .custom-form-group .custom-form-control {
     display: none; }
     .ugf-form .input-block .custom-form-group .custom-form-control:checked ~ label {
-      border-color: rgba(30, 133, 255, 0.5); }
+      border-color: #eb820e; }
       .ugf-form .input-block .custom-form-group .custom-form-control:checked ~ label .text {
-        color: #1e85ff; }
+        color: #FA9220; }
       .ugf-form .input-block .custom-form-group .custom-form-control:checked ~ label .icon {
         opacity: 1; }
       .ugf-form .input-block .custom-form-group .custom-form-control:checked ~ label:before {
-        background: #1e85ff;
+        background: #FA9220;
         border-color: transparent; }
       .ugf-form .input-block .custom-form-group .custom-form-control:checked ~ label:after {
         opacity: 1; }
@@ -421,7 +421,7 @@
       -webkit-box-shadow: none;
       box-shadow: none; }
       .ugf-form .input-block .form-group .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-        background: #1e85ff; }
+        background: #FA9220; }
     .ugf-form .input-block .form-group .custom-checkbox .custom-control-label {
       width: auto;
       text-align: left;
@@ -451,7 +451,7 @@
         height: 18px;
         width: 18px; }
       .ugf-form .input-block .form-group .custom-checkbox .custom-control-label a {
-        color: #1e85ff; }
+        color: #FA9220; }
   .ugf-form .input-block .form-group .select-input {
     position: relative; }
     .ugf-form .input-block .form-group .select-input span {
@@ -502,10 +502,10 @@
         -webkit-appearance: none;
         appearance: none; }
         .ugf-form .input-block .form-group .check-gender .custom-radio .custom-control-input:checked ~ .custom-control-label {
-          border-color: rgba(30, 133, 255, 0.5);
-          color: #1e85ff; }
+          border-color: #eb820e;
+          color: #FA9220; }
         .ugf-form .input-block .form-group .check-gender .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
-          background: #1e85ff; }
+          background: #FA9220; }
         .ugf-form .input-block .form-group .check-gender .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
           background-image: none;
           content: url(../images/check-white.svg); }
@@ -582,8 +582,8 @@
         -o-transition: all .3s ease;
         transition: all .3s ease; }
       .ugf-form .input-block .documents-upload-wrap .nav-tabs .nav-item .nav-link.active {
-        color: #1e85ff;
-        border-color: rgba(30, 133, 255, 0.4); }
+        color: #FA9220;
+        border-color: #FA9220; }
         .ugf-form .input-block .documents-upload-wrap .nav-tabs .nav-item .nav-link.active img {
           opacity: 1; }
 
@@ -682,7 +682,7 @@
     -webkit-box-shadow: none;
     box-shadow: none; }
     .ugf-form .input-block .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-      background: #1e85ff; }
+      background: #FA9220; }
   .ugf-form .input-block .custom-checkbox .custom-control-label {
     width: auto;
     text-align: left;
@@ -713,7 +713,7 @@
       height: 18px;
       width: 18px; }
     .ugf-form .input-block .custom-checkbox .custom-control-label a {
-      color: #1e85ff; }
+      color: #FA9220; }
 
 .ugf-form .btn {
   height: 70px;
@@ -721,7 +721,7 @@
   line-height: 70px;
   padding: 0;
   border-radius: 5px;
-  background: #1e85ff;
+  background: #FA9220;
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 700;
@@ -776,7 +776,7 @@
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #1e85ff;
+    background: #FA9220;
     border-radius: 5px; }
 
 @media all and (max-width: 767px) {
