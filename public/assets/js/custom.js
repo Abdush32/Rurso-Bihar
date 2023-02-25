@@ -25,7 +25,7 @@ $(document).ready(function() {
       var reader = new FileReader();
       reader.onload = () => {
         var parent = document.getElementById('p-' + inputId);
-        parent.innerHTML = `<img class="preview-content img-fluid" src=${reader.result} />`;
+        parent.innerHTML = `<img class="preview-content img-fluid" src=${reader.result}  />`;
       };
 
       reader.readAsDataURL(uploadedFile);
